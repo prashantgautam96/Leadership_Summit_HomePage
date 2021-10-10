@@ -1,0 +1,88 @@
+/*navbar*/
+nav {
+    box-shadow: 0 0 5px gray;
+    background: rgb(248, 239, 222);
+}
+
+nav .navbar-brand {
+    font-size: calc(100% + 0.4vw + 0.4vh);
+    font-weight: 600;
+}
+
+nav .nav-item {
+    font-size: calc(100% + 0.1vw + 0.1vh);
+}
+
+/* footer*/
+footer .container-fluid1{
+    padding: 100px 0;
+    background-color: black;
+}
+
+footer .logo {
+    color: #48494B;
+    font-size: calc(100% + 0.8vw + 0.8vh);
+}
+footer p,a {
+    color: #48494B;
+}
+footer p.link-group-heading {
+    margin-top: -3px;
+    font-weight: 600;
+    color: #48494B;
+    font-size: calc(100% + 0.4vw + 0.4vh);
+}
+footer .link-group li{
+    font-size: calc(100% + 0.2vw + 0.2vh);
+}
+
+footer .link-group li a {
+    color: #48494B;
+}
+
+footer .social-icons {
+    font-size: 35px;
+}
+
+footer .row1 p {
+    margin-top: -5px;
+}
+
+@media screen and (max-width: 768px) {
+    footer p.link-group-heading {
+        margin-top: 0%;
+    }
+    footer .container-fluid1{
+        padding: 5%;
+    }
+}
+
+/*Herobg*/
+.hero-image {
+    background: rgb(248, 239, 222);
+}
+
+/*Team*/
+#Team .heading {
+    font-size: calc(100% + 1vw + 1vh);
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+#Team .container-fluid {
+    padding: 10% 13%;
+}
+
+#Team .card {
+    box-shadow: 3px 3px 3px gray;
+}
+
+#Team .card-body {
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 576px) {
+    #Team .heading {
+        margin-top: 70px;
+    }
+}
