@@ -86,3 +86,36 @@ footer .row1 p {
         margin-top: 70px;
     }
 }
+
+/*timeline*/
+#timeline {
+    overflow-x: hidden;
+}
+
+#timeline .container-fluid {
+    padding-bottom: 10%;
+}
+
+#timeline .heading {
+    font-size: calc(100% + 1vw + 1vh);
+    font-weight: 600;
+}
+
+#timeline img {
+    width: 70%;
+}
+
+@media screen and (max-width: 992px) {
+    #timeline .row {
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col1 {
+        margin-left: -30%;
+    }
+    .col2 {
+        margin-right: -20%;
+    }
+}
