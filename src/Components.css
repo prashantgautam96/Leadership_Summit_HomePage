@@ -70,7 +70,7 @@ footer .row1 p {
 }
 
 #Team .container-fluid {
-    padding: 10% 13%;
+    padding: 0 13%;
 }
 
 #Team .card {
@@ -92,8 +92,8 @@ footer .row1 p {
     overflow-x: hidden;
 }
 
-#timeline .container-fluid {
-    padding-bottom: 10%;
+ .container-fluid {
+    padding-bottom: 3%;
 }
 
 #timeline .heading {
@@ -119,3 +119,26 @@ footer .row1 p {
         margin-right: -20%;
     }
 }
+
+.heroimage {
+    height: 100vh;
+    width: auto;
+    position: relative;
+    background-size:cover;
+    background-position: 50% 50%;
+    background-image: url("./images/Leadership.jpg");
+  }
+
+  .overlay{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top:0;
+      left:0;
+      background:rgba(0,0,0,0.35);
+      color:white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
